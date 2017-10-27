@@ -1,5 +1,7 @@
 # 概要
 Retrofit と Moshi を使ったサンプル
+pythonは同じAPIを叩くやつ
+ログに出力する
 
 # 詰まった点と解決策
 ## Expected BEGIN_ARRAY but was BEGIN_OBJECT
