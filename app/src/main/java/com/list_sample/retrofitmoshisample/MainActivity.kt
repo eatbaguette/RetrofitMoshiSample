@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
             override fun doInBackground(vararg params: Void): String? {
                 try {
                     val response = service.keyWordPython().execute()
-                    Log.d(TAG, response.toString())
+                    Log.d(TAG, response.body()?.resultsReturned.toString())
                 } catch (e: Exception) {
                     Log.e(TAG, e.toString())
                 }
