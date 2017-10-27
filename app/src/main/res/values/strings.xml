@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RetrofitMoshiSample</string>
+
+    <!-- API通信 -->
+    <string name="base_url">https://connpass.com/api/v1/event/</string>
+    <string name="request_path_keyword_python">¥?keyword=python</string>
 </resources>
